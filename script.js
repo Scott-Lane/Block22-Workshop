@@ -9,13 +9,7 @@ const RSVPS_API_URL = 'http://fsa-async-await.herokuapp.com/api/workshop/rsvps';
 const GIFTS_API_URL = 'http://fsa-async-await.herokuapp.com/api/workshop/gifts';
 
 
-// function renderAllParties(parties){
-//   let htmlString = "";
-//   parties.forEach(party=> {
-//     htmlString += `<p>${party.name}</p>`;
-//   });
-//   partyContainer.innerHTML = htmlString;
-// }
+
 function renderAllParties(parties) {
   let htmlString = '';
   parties.forEach((party) => {
